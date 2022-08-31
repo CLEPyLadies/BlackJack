@@ -91,8 +91,8 @@ def main():
                 dealerHand.append(deck.pop())
                 displayHands(playerHand, dealerHand, False)
                     
-            if getHandsValue(dealerHand) > 21:
-                break #The Dealer has busted.
+                if getHandsValue(dealerHand) > 21:
+                    break #The Dealer has busted.
             input('Press Enter to continue...')
             print('\n\n')
             
